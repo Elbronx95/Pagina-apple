@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.7)),
+        url(imgs/Apple-Vision-Pro.jpg) center bottom no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    background-attachment: fixed;
+    align-items: center; 
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 15px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #7178da;
+    transition: 0.5s;
+}
+
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    background: linear-gradient(
+        to right, rgb(47, 20, 172),
+         rgb(192, 187, 201),
+          rgb(102, 126, 177),
+           rgb(43, 132, 148),
+            rgb(40, 135, 190),
+             rgb(61, 192, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 25px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.vision-pro-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.vision-pro-content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.vision-pro-content h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.vision-pro-content p {
+    font-size: 20px;
+    color: #666;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #c5c5c5;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .header-content h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .header-content p {
+        font-size: 20px;
+        padding: 0 30px;
+    }
+
+    .menu label {
+        display: block;
+    }
+
+    .menu .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to bottom right, #afb5b9, #172027);
+        flex-direction: column;
+    }
+
+    .menu .navbar ul {
+        flex-direction: column;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: flex;
+    }
+
+    .vision-pro-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vision-pro-content img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

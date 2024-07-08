@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    min-height: 120vh;
+    display: flex;
+    align-items: center; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: #0e4166;
+}
+
+.header-content img{
+    width: 35%;
+}
+
+.header-content h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.header-content p{
+    font-size: 25px;
+    color: #000000;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 15px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #7178da;
+    transition: 0.5s;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10vh;
+}
+
+.general {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 80%;
+    margin-bottom: 30px; 
+    gap: 20px; 
+}
+
+.general-info {
+    width: 45%; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.general img {
+    width: 130%; 
+    text-align: center;
+    max-width: 55vh;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #0e4166;
+    font-size: 2em;
+}
+
+p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.ipad-content {
+    text-align: center;
+}
+
+.ipad-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #0e4166;
+}
+
+.ipad-content img{
+    width: 35%;
+}
+
+.ipad-content h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.ipad-content p{
+    font-size: 25px;
+    color: #000000;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.info-ipad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.general-ipad {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 80%;
+    margin-bottom: 30px; 
+    gap: 20px; 
+}
+
+.ipad-general {
+    width: 45%; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.general-ipad img {
+    width: 130%; 
+    text-align: center;
+    max-width: 55vh;
+    border-radius: 10px;
+}
+
+.mac-content {
+    text-align: center;
+}
+
+.mac-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #0e4166;
+}
+
+.mac-content img{
+    width: 35%;
+}
+
+.mac-content h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.mac-content p{
+    font-size: 25px;
+    color: #000000;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.info-mac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.general-mac {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 80%;
+    margin-bottom: 30px; 
+    gap: 20px; 
+}
+
+.mac-general {
+    width: 45%; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.general-mac img {
+    width: 130%; 
+    text-align: center;
+    max-width: 55vh;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #c5c5c5;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media(max-width:991px) {
+    
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to bottom right, #afb5b9, #172027);
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .header-content img {
+        width: 60%;
+    }
+
+    .info {
+        margin-top: -5vh;
+    }
+
+    .general, .general-ipad, .general-mac {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .general-info, .ipad-general, .mac-general, .general img, .general-ipad img, .general-mac img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .ipad-content img, .mac-content img {
+        width: 80%;
+    }
+
+    .ipad-content p, .mac-content p {
+        padding: 0 20px;
+    }
+
+    .ipad-content h1, .mac-content h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .ipad-content h2, .mac-content h2 {
+        font-size: 25px;
+    }
+
+    .ipad-content p, .mac-content p {
+        font-size: 18px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .link a {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}
