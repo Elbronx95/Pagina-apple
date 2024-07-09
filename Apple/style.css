@@ -109,17 +109,17 @@ body {
     transition: 0.5s;
 }
 
-.coffee {
+.apple {
     padding: 100px 0;
     background-color: #e1e2e6;
     position: relative;
 }
 
-.coffee-content {
+.apple-content {
     text-align: center;
 }
 
-.coffee-content h2 {
+.apple-content h2 {
     font-size: 55px;
     line-height: 70px;
     color: #323337;
@@ -135,26 +135,26 @@ body {
     margin-bottom: 35px;
 }
 
-.coffee-group{
+.apple-group{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
     align-items: flex-start;
 }
 
-.coffee-1 {
+.apple-1 {
     flex: 1;
     margin: 0 10px;
     padding: 0 25px;
     text-align: center;
 }
 
-.coffee-1 img {
+.apple-1 img {
     width: 200px;
     height: auto;
 }
 
-.coffee-1 h3 {
+.apple-1 h3 {
     color: #323337;
     font-size: 25px;
     margin-bottom: 15px;
@@ -321,11 +321,11 @@ p {
         padding: 0;
     }
 
-    .coffee {
+    .apple {
         padding: 30px;
     }
 
-    .coffee-content h2 {
+    .apple-content h2 {
         padding: 0;
     }
 
@@ -333,12 +333,12 @@ p {
         padding: 0;
     }
 
-    .coffee-group {
+    .apple-group {
         flex-direction: column;
         margin-bottom: 0;
     }
 
-    .coffee-img {
+    .apple-img {
         display: none;
     }
 
